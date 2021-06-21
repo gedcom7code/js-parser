@@ -1,2 +1,1 @@
-# js-parser
-Javasctipt GEDCOM 7 parser
+A 36-line Javascript GEDCOM parser. It only handles [specification](https://gedcom.io/specifications/FamilySearchGEDCOMv7.html)-conformant lines and has no error messages, but it handles all of GEDCOM 7.0.0 structures including CONT, pointers, and extension tags. Structure hierarchy is not validated, and hence payload datatypes are not known nor handled.
